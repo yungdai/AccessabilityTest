@@ -14,6 +14,10 @@
 		9FD0309C1BFA61560097BAEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FD0309A1BFA61560097BAEB /* LaunchScreen.storyboard */; };
 		9FD030A71BFA61560097BAEB /* AccessabilityTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD030A61BFA61560097BAEB /* AccessabilityTestTests.swift */; };
 		9FD030B21BFA61560097BAEB /* AccessabilityTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD030B11BFA61560097BAEB /* AccessabilityTestUITests.swift */; };
+		9FD030C01BFA65AE0097BAEB /* FirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD030BF1BFA65AE0097BAEB /* FirstTableViewCell.swift */; };
+		9FD030C21BFA67830097BAEB /* FirstTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD030C11BFA67830097BAEB /* FirstTable.swift */; };
+		9FD030C61BFA67C40097BAEB /* SecondTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD030C51BFA67C40097BAEB /* SecondTable.swift */; };
+		9FD030C81BFA67EC0097BAEB /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD030C71BFA67EC0097BAEB /* SecondTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		9FD030AD1BFA61560097BAEB /* AccessabilityTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccessabilityTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FD030B11BFA61560097BAEB /* AccessabilityTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessabilityTestUITests.swift; sourceTree = "<group>"; };
 		9FD030B31BFA61560097BAEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FD030BF1BFA65AE0097BAEB /* FirstTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTableViewCell.swift; sourceTree = "<group>"; };
+		9FD030C11BFA67830097BAEB /* FirstTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstTable.swift; sourceTree = "<group>"; };
+		9FD030C51BFA67C40097BAEB /* SecondTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTable.swift; sourceTree = "<group>"; };
+		9FD030C71BFA67EC0097BAEB /* SecondTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,9 @@
 		9FD030901BFA61560097BAEB /* AccessabilityTest */ = {
 			isa = PBXGroup;
 			children = (
+				9FD030C41BFA67A00097BAEB /* Models */,
+				9FD030C31BFA67960097BAEB /* ViewControllers */,
 				9FD030911BFA61560097BAEB /* AppDelegate.swift */,
-				9FD030931BFA61560097BAEB /* ViewController.swift */,
 				9FD030951BFA61560097BAEB /* Main.storyboard */,
 				9FD030981BFA61560097BAEB /* Assets.xcassets */,
 				9FD0309A1BFA61560097BAEB /* LaunchScreen.storyboard */,
@@ -123,6 +132,25 @@
 				9FD030B31BFA61560097BAEB /* Info.plist */,
 			);
 			path = AccessabilityTestUITests;
+			sourceTree = "<group>";
+		};
+		9FD030C31BFA67960097BAEB /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9FD030931BFA61560097BAEB /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9FD030C41BFA67A00097BAEB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9FD030BF1BFA65AE0097BAEB /* FirstTableViewCell.swift */,
+				9FD030C11BFA67830097BAEB /* FirstTable.swift */,
+				9FD030C51BFA67C40097BAEB /* SecondTable.swift */,
+				9FD030C71BFA67EC0097BAEB /* SecondTableViewCell.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD030C01BFA65AE0097BAEB /* FirstTableViewCell.swift in Sources */,
 				9FD030941BFA61560097BAEB /* ViewController.swift in Sources */,
+				9FD030C61BFA67C40097BAEB /* SecondTable.swift in Sources */,
 				9FD030921BFA61560097BAEB /* AppDelegate.swift in Sources */,
+				9FD030C21BFA67830097BAEB /* FirstTable.swift in Sources */,
+				9FD030C81BFA67EC0097BAEB /* SecondTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
